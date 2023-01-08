@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-byodian",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Default stylelint config used by SimpleCSS",
   "author": "byodian",
   "license": "MIT",
