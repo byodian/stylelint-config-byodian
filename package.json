@@ -1,0 +1,38 @@
+{
+  "name": "stylelint-config-byodian",
+  "version": "0.1.0",
+  "description": "Default stylelint config used by SimpleCSS",
+  "author": "byodian",
+  "license": "MIT",
+  "homepage": "https://github.com/byodian/stylelint-config-byodian#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byodian/stylelint-config-byodian.git"
+  },
+  "keywords": [
+    "simplecss",
+    "stylelint",
+    "stylelint-config",
+    "config",
+    "lint"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint \"**/*.{scss,css}\" --config index.js --formatter verbose"
+  },
+  "peerDependencies": {
+    "stylelint": "^14.16.0"
+  },
+  "dependencies": {
+    "stylelint-config-recess-order": "^3.0.0",
+    "stylelint-config-standard": "^29.0.0",
+    "stylelint-config-standard-scss": "^6.1.0",
+    "stylelint-scss": "^4.3.0"
+  },
+  "devDependencies": {
+    "@byodian/eslint-config-basic": "^0.1.5",
+    "eslint": "^8.31.0",
+    "stylelint": "^14.16.0",
+    "stylelint-config-byodian": "*"
+  }
+}
